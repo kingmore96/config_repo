@@ -1,8 +1,9 @@
 spring:
   application:
     name: application
-
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+  
 env: kule
-rabbitmq:
-  host: 192.168.99.100
-  port: 5672
+
