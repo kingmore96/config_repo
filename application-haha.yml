@@ -1,16 +1,14 @@
 spring:
   application:
     name: application
-<<<<<<< HEAD
+
+   rabbitmq:
+      host: 192.168.99.100
+      port: 5672
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 env: gagaxiao
-=======
-  rabbitmq:
-    host: 192.168.99.100
-    port: 5672
-  
-env: xiaobuchulaile
->>>>>>> c5fe2a74aa70da4754e41632f50dc2a66bb66d25
+
+
